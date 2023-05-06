@@ -217,11 +217,11 @@
 
 .result-container .info-text-container div.info-text {
     margin: 8px;
-    font-size: 1.09rem;
+    
 }
 
 .result-container .buttons {
-    margin-top: 2vh;
+    margin-top: 6vh;
     width: 90vw;
     height: 20vh;
     display: flex;
@@ -230,7 +230,7 @@
 }
 
 .result-container .buttons .button_restart {
-    height: 16vh;
+    height: 17vh;
     object-fit: contain;
 }
 
