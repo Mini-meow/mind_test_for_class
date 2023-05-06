@@ -1,0 +1,261 @@
+@font-face {
+    font-family: "jf-huninn";
+    src: url("../fonts/jf-openhuninn-1.1.woff2");
+}
+
+* {
+    font-family: 'jf-huninn', sans-serif;
+}
+
+.page {
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-block {
+    background-color: #ffffffaa;
+    background-blend-mode: screen;
+    border-radius: 2vh;
+}
+
+.starting-page {
+    display: none;
+    background-image: url("../assets/bg_title.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.quiz-page {
+    display: none;
+    background-image: url("../assets/bg_2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.waiting-page {
+    display: flex;
+    align-items: center;
+    width: 100vw; 
+    height: 100vh;
+    background-image: url("../assets/bg_2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+
+.waiting-page img {
+    width: 70vw;
+}
+
+.waiting-page div.text {
+    display: flex;
+    width: 90vw;
+    flex-direction: column;
+
+    position: relative;
+
+    animation-name: shake;
+    animation-duration: 50ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: steps(2, end);
+    animation-direction: alternate;
+}
+
+.waiting-page div.text .title {
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.waiting-page div.text .content {
+    font-size: 1.2rem;
+}
+
+.result-page {
+    display: none;
+    background-image: url("../assets/bg_result.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.info-page {
+    display: none;
+}
+
+.preloading-page{
+    display: flex;
+    background-color: #f2efcf;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 100%; 
+    height: 100%;
+    z-index: 999;
+}
+
+.preloading-page img {
+    width: 70vw;
+}
+.start-container img.title {
+    position: absolute;
+    width: 100vw;
+    left: 0;
+    top: 4vh;
+}
+
+.start-container div.button {
+    position: absolute;
+    left: 0;
+    bottom: -1vh;
+    
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.start-container div.button img.button_start {
+    width: 48vw;
+}
+
+.start-container div.button img.button_start:active {
+    width: 46vw;
+    margin: 1vw;
+}
+
+.quiz-container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.question-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 80vw;
+    height: 20vh;
+    
+    font-size: 3vh;
+
+    text-align: center;
+}
+
+.option-container {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    height: 40vh;
+    gap: 10px;
+    
+}
+
+.opt {
+    display: flex;
+    align-items: center;
+
+    width: 80vw;
+    height: 8vh;
+    
+    font-size: 2vh;
+}
+
+.opt #opt-name {
+    padding-left: 6px;
+    padding-right: 12px;   
+}
+
+.result-container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    grid-template-rows: 25vh 42vh 20vh;
+}
+
+.result-container .avatar {
+    display: grid;
+    align-items: end;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    grid-auto-flow: column;
+}
+
+.result-container .avatar img {
+    width: max(45vw, 12.5vh);
+    object-fit: contain;
+    z-index: 2;
+}
+
+.result-container .avatar img.result-avatar-element {
+    grid-column:1/2;
+    grid-row: 1/2;
+}
+
+.result-container .avatar img#result-seismic {
+    z-index: 0;
+}
+
+.result-container .info-text-container {
+    margin-top: 2vh;
+    width: 90vw;
+    height: 100%;
+}
+
+.result-container .info-text-container div.info-text {
+    margin: 4px;
+}
+
+.result-container .buttons {
+    margin-top: 2vh;
+    width: 90vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.result-container .buttons .button_restart {
+    height: 16vh;
+    object-fit: contain;
+}
+
+.result-container .buttons .button_restart:active {
+    height: calc(16vh - 2vw);
+    object-fit: contain;
+    margin: 1vw;
+}
+
+.result-container .buttons .social-link {
+    display: flex;
+    justify-content: center;
+    height: 4vh;
+    align-items: center;
+}
+.result-container .buttons .social-link div {
+    color: rgb(34, 34, 34);
+    font-size: 1.2rem;
+}
+
+.result-container .buttons .social-link img {
+    width: 4vh;
+    object-fit: contain;
+}
+
+@keyframes shake {
+    0%   {top: -5px}
+    100% {top: 5px}
+}

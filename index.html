@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>測驗</title>
+        <meta data-n-head="1" name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <link rel="stylesheet" href="styles/index.css">
+
+        <link rel="preload" href="assets/seismic_wave.gif" as="image">
+        <link rel="preload" href="assets/bg_2.png" as="image">
+        <link rel="preload" href="assets/bg_result.png" as="image">
+        <link rel="preload" href="assets/bg_title.png" as="image">
+        <link rel="preload" href="assets/button_start.png" as="image">
+        <link rel="preload" href="assets/loading.gif" as="image">
+        <link rel="preload" href="assets/title.png" as="image">
+    </head>
+    <body style="margin: 0; padding: 0;">
+        <!-- preloading -->
+        <div id="preloading-page" class="page preloading-page">
+            <img src="assets/seismic_wave.gif">
+        </div>
+
+        <!-- 起始 -->
+        <div id="starting-page" class="page starting-page">
+            <div class="start-container">
+                <img src="assets/title.png" class="title">
+                <div class="button">
+                    <img src="assets/button_start.png" class="button_start" id="button-start-q">
+                </div>
+            </div>
+        </div>
+
+        <!-- 問題 -->
+        <div id="quiz-page" class="page quiz-page">
+            <div class="quiz-container">
+                <div class="question-box page-block" id="question-box">
+                    
+                </div>
+                <div class="option-container">
+                    <div class="opt page-block" id="opt-a-btn">
+                        <div id="opt-name">A</div>
+                        <div id="opt-a"></div>
+                    </div>
+                    <div class="opt page-block" id="opt-b-btn">
+                        <div id="opt-name">B</div>
+                        <div id="opt-b"></div>
+                    </div>
+                    <div class="opt page-block" id="opt-c-btn">
+                        <div id="opt-name">C</div>
+                        <div id="opt-c"></div>
+                    </div>
+                    <div class="opt page-block" id="opt-d-btn">
+                        <div id="opt-name">D</div>
+                        <div id="opt-d"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 等待 -->
+        <div id="waiting-page" class="page waiting-page">
+            <div class="text">
+                <div class="title">國家級警報</div>
+                <div class="content">[地震速報Earthquake Alert]各板塊的激烈碰撞，究竟會激發出什麼呢？？！！</div>
+            </div>
+            <img src="assets/loading.gif">
+        </div>
+
+        <!-- 結果 -->
+        <div id="result-page" class="page result-page">
+            <div class="result-container">
+                <div class="avatar" id="avatar">
+                    <img id="result-avatar" class="result-avatar-element">
+                    <img id="result-seismic" class="result-avatar-element" src="assets/seismic_wave.gif">
+                    <img id="result-radar">
+                </div>
+                <div class="info-text-container page-block">
+                    <div class="info-text" id="info-text"></div>
+                </div>
+                <div class="buttons" id="buttons">
+                    <img id="button_restart" class="button_restart" src="assets/button_restart.png">
+                    <div class="social-link">
+                        <div>追蹤藝創系</div>
+                        <a href="https://www.facebook.com/artci.ndhu" target="_blank"><img src="assets/icon_fb.png"></a>
+                        <a href="https://www.instagram.com/aci_hostel/" target="_blank"><img src="assets/icon_ig.png"></a>
+                        <div>請截圖分享</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 資訊 -->
+        <div id="info-page" class="page info-page">
+
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+        <script src="js/quiz.js"></script>
+    </body>
+</html>
