@@ -8,6 +8,7 @@
 }
 
 .page {
+    display: flex;
     width: 100vw;
     height: 100vh;
     justify-content: center;
@@ -76,7 +77,10 @@
 }
 
 .result-page {
-    display: none;
+    display: flex;
+    height: calc(107vh + 40px);
+    justify-content: center;
+    align-items: center;
     background-image: url("../assets/bg_result.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -101,6 +105,7 @@
 .preloading-page img {
     width: 70vw;
 }
+
 .start-container img.title {
     position: absolute;
     width: 100vw;
@@ -182,7 +187,7 @@
     align-items: center;
     gap: 10px;
 
-    grid-template-rows: 25vh 42vh 20vh;
+    grid-template-rows: 25vh 42vh 10vh 20vh;
 }
 
 .result-container .avatar {
@@ -210,18 +215,15 @@
 }
 
 .result-container .info-text-container {
-    margin-top: 8vh;
     width: 90vw;
-    height: 110%;
+    height: 100%;
 }
 
 .result-container .info-text-container div.info-text {
     margin: 8px;
-    
 }
 
 .result-container .buttons {
-    margin-top: 6vh;
     width: 90vw;
     height: 20vh;
     display: flex;
@@ -230,12 +232,12 @@
 }
 
 .result-container .buttons .button_restart {
-    height: 17vh;
+    height: 15vh;
     object-fit: contain;
 }
 
 .result-container .buttons .button_restart:active {
-    height: calc(17vh - 2vw);
+    height: calc(15vh - 2vw);
     object-fit: contain;
     margin: 1vw;
 }
@@ -254,6 +256,20 @@
 .result-container .buttons .social-link img {
     width: 4vh;
     object-fit: contain;
+}
+
+.island-container {
+    display: flex;
+    width: 100%;
+    height: 20vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.island-container .island img {
+    height: 20vh;
+    object-fit: contain;
+    z-index: 2;
 }
 
 @keyframes shake {

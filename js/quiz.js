@@ -170,7 +170,8 @@ let result = {
         ",
         "desc2": "友好的夥伴：辣呼呼<br>建議挑戰：露營、看海<br>適合的課程：陶藝<br>晚餐推薦：皮蛋瘦肉粥",
         "img": "assets/a_Teshao.png",
-        "radar": "assets/n_Teshao.png"
+        "radar": "assets/n_Teshao.png",
+        "island": "assets/b_Teshao.png"
     },
     "a2": {
         "name": "秀聰",
@@ -179,7 +180,8 @@ let result = {
 你是一個非常猜不透、外表高冷的人，有種獨特且吸引人的氣質。神秘、難以捉摸是你的代名詞。",
         "desc2": "友好的夥伴：臥虎藏龍<br>建議挑戰：拍Vlog、夜衝<br>適合的課程：草木染<br>晚餐推薦：麥當勞",
         "img": "assets/a_Siutsong.png",
-        "radar": "assets/n_Siutsong.png"
+        "radar": "assets/n_Siutsong.png",
+        "island": "assets/b_Siutsong.png"
     },
     "a3": {
         "name": "柏熹",
@@ -188,7 +190,8 @@ let result = {
 你是個善解人意、樂於付出的人。但過於善良所以不懂的拒絕，時常委屈自己。大方溫柔、笑容可掬是你的代名詞。",
         "desc2":"友好的夥伴： 金銀財寶<br>建議挑戰：路跑、夜唱<br>適合的課程：基礎攝影<br>晚餐推薦：美式大漢堡",
         "img": "assets/a_Posi.png",
-        "radar": "assets/n_Posi.png"
+        "radar": "assets/n_Posi.png",
+        "island": "assets/b_Posi.png"
     },
     "b1": {
         "name": "明峰",
@@ -197,7 +200,8 @@ let result = {
 你是個有毅力且認真負責的人、喜歡有保障的事情。心靈手巧是你的代名詞。",
         "desc2": "友好的夥伴：金銀財寶<br>建議挑戰：密室逃脫、釣魚<br>適合的課程：編織<br>晚餐推薦：壽喜燒豬肉",
         "img": "assets/a_Mingfeng.png",
-        "radar": "assets/n_Mingfeng.png"
+        "radar": "assets/n_Mingfeng.png",
+        "island": "assets/b_Mingfeng.png"
     },
     "b2": {
         "name": "文昌",
@@ -206,7 +210,8 @@ let result = {
 你是個隨和且友好的人，人緣極佳大家都喜歡跟你做朋友，也是朋友間的協調者。和平、溫柔是你的代名詞。",
         "desc2": "友好的夥伴： 喀擦喀擦<br>建議挑戰：溜冰、單獨看電影<br>適合的課程： 文化工藝設計<br>晚餐推薦：牛肉湯+肉燥飯",
         "img": "assets/a_WenchangTsun.png",
-        "radar": "assets/n_WenchangTsun.png"
+        "radar": "assets/n_WenchangTsun.png",
+        "island": "assets/b_WenchangTsun.png"
     },
     "c1": {
         "name": "臥龍",
@@ -215,7 +220,8 @@ let result = {
 你是個敏銳、富有同情心的人，善於表現自我、追求獨特的藝術家。浪漫、瀟灑是你的代名詞。",
         "desc2": "友好的夥伴：森之心<br>建議挑戰：環島、酒精路跑<br>適合的課程：素描<br>晚餐推薦：咖哩豬排飯",
         "img": "assets/a_wolung.png",
-        "radar": "assets/n_wolung.png"
+        "radar": "assets/n_wolung.png",
+        "island": "assets/b_wolung.png"
     },
     "c2": {
         "name": "令權",
@@ -224,7 +230,8 @@ let result = {
 你喜歡新鮮好玩、自由自在、開心快樂的生活，討厭重複煩悶的事務。不按理出牌、天馬行空是你的代名詞。",
         "desc2":"友好的夥伴：樂陶陶<br>建議挑戰：泛舟、拼樂高<br>適合的課程：流行時尚<br>晚餐推薦：泰式椒麻雞+月亮蝦餅",
         "img": "assets/a_Lingchuan.png",
-        "radar": "assets/n_Lingchuan.png"
+        "radar": "assets/n_Lingchuan.png",
+        "island": "assets/b_Lingchuan.png"
     },
     "d1": {
         "name": "淑雅",
@@ -233,7 +240,8 @@ let result = {
 你是個積極正向、很有自信的人，渴望被認可、注重個人形象。認真、機靈是你的代名詞。",
         "desc2": "友好的夥伴： 樂陶陶<br>建議挑戰：跳水、打保齡球<br>適合的課程：首飾設計<br>晚餐推薦：鐵板燒",
         "img": "assets/a_Shuya.png",
-        "radar": "assets/n_Shuya.png"
+        "radar": "assets/n_Shuya.png",
+        "island": "assets/b_Shuya.png"
     },
     "d2": {
         "name": "浴珊",
@@ -242,7 +250,8 @@ let result = {
 你是個喜歡思考、追求知識的人，喜歡獨處、渴望比別人了解的更多。冷靜、機智是你的代名詞。",
         "desc2": "友好的夥伴：熊貓大帝國<br>建議挑戰：劇本殺、遊樂園<br>適合的課程： 金工<br>晚餐推薦：明太子鮭魚義大利麵",
         "img": "assets/a_Yushan.png",
-        "radar": "assets/n_Yushan.png"
+        "radar": "assets/n_Yushan.png",
+        "island": "assets/b_Yushan.png"
     }
 };
 
@@ -341,7 +350,7 @@ function get_result() {
         return "b2";
     }else if (point >= 2000 && point <= 2010) {
         return "c1";
-    }else if (point >= 2021 && point < 3000) {
+    }else if (point >= 2011 && point < 3000) {
         return "c2";
     }else if (point >= 3000 && point <= 3010) {
         return "d1";
@@ -356,6 +365,7 @@ function load_result_page() {
     $("#info-text").html(result[result_id]["desc"] + "<hr>" + result[result_id]["desc2"]);
     $("#result-avatar").attr("src", result[result_id]["img"]);
     $("#result-radar").attr("src", result[result_id]["radar"]);
+    $("#result-island").attr("src", result[result_id]["island"]);
 }
 
 
