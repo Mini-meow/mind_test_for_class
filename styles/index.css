@@ -187,7 +187,7 @@
     align-items: center;
     gap: 10px;
 
-    grid-template-rows: 25vh 42vh 10vh 20vh;
+    grid-template-rows: 25vh 45vh 10vh 20vh;
 }
 
 .result-container .avatar {
